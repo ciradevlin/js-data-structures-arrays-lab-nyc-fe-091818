@@ -33,8 +33,7 @@ function prependDriver(name) {
 }
 
 function removeLastDriver() {
-
-const copyDrivers = drivers.slice 
-copyDrivers.pop(name)
+const copyDrivers = drivers.slice
+copyDrivers.pop()
 return copyDrivers
 }
