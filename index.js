@@ -22,6 +22,8 @@ function appendDriver(name) {
 const copyDrivers = drivers.slice ()
 
 copyDrivers.push(name)
+return copyDrivers
+
 }
 
 
